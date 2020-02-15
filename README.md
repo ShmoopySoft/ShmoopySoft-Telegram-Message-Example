@@ -4,7 +4,7 @@ A Visual Studio 2019 solution written in C# to demonstrate sending messages to a
 
 ## Getting Started
 
-In order to send messages to Telegram from Blue Prism, the following steps must first be completed:
+In order to send messages to Telegram, the following steps must first be completed:
 
 1. Download and install Telegram on your preferred device
 2. Create a Telegram public channel
