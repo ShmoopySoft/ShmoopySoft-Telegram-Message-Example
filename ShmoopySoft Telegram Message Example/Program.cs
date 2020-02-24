@@ -25,12 +25,26 @@ using System.IO;
 
 namespace ShmoopySoft_Telegram_Message_Example
 {
+    /// <summary>
+    /// The Program class's responsibility is to provide an entry point for the application.
+    /// </summary>
     class Program
     {
-        // Insert your Telegram BOT Api Token and Chat Id values here.
+        /// <summary>
+        /// Instantiate a protected constant string variable <c>apiToken</c> Stores the Telegram BOT Api Token.
+        /// </summary>
         protected const string apiToken = "<<<!!! INSERT YOUR TELEGRAM BOT API TOKEN HERE !!!>>>";
+
+        /// <summary>
+        /// Instantiate a protected constant string variable <c>chatId</c> Stores the Telegram Channel Chat Id.
+        /// </summary>
         protected const string chatId = "<<<!!! INSERT YOUR TELEGRAM CHANNEL CHAT ID HERE !!!>>>";
 
+        /// <summary>
+        /// C# applications have an entry point called the Main Method. 
+        /// It is the first method that gets invoked when an application starts.
+        /// </summary>
+        /// <param name="args">Command line arguments as string type parameters</param>
         public static void Main(string[] args)
         {
             // String variables to store the Telegram URL and message text (url encoded).
